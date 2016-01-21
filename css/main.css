@@ -1,0 +1,205 @@
+@font-face {
+	font-family: bellerose;
+	src: url(../fonts/Bellerose.ttf);
+}
+@font-face{
+	font-family: sb;
+	src: url(../fonts/Sketch_Block.ttf);
+}
+
+body{
+	margin: 0;
+}
+
+.tuxpic{
+	position:fixed;
+	top:20px;
+	right: 0;
+	z-index: -10;
+	/*float: right;*/
+	height: 650px;
+
+}
+
+.tuxpic img{
+	display: block;
+	height: 100%;
+}
+
+.welcome{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	/*margin-left: 150px;*/
+}
+
+.sl{
+	font-family: bellerose;
+	font-size: 7vw;
+	/*margin-top: 6vw;*/
+}
+
+.message{
+	position: absolute;
+	left: 150px;
+	/*margin-top: 0px;*/
+	width: 400px;
+	margin-top: -100px;
+}
+.hello{
+	color: #555;
+	font-size: 5vw;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+
+}
+
+.bar {
+	margin-top: 670px;
+	clear: both;
+	height: 60px;
+	background: black;
+}
+.bar2{
+	height: 60px;
+	background: black;
+}
+
+.bar3{
+	height: 60px;
+	background: black;
+}
+
+.content {
+	background: white;
+	text-align: center;
+
+}
+
+.p1{
+	border:solid black 3px;
+	font-size: 3vw;  
+	text-align: center;
+	display: inline-block;
+	width: 30vw;
+	height: 24vw;
+	vertical-align: middle;
+	margin: 30px;
+	padding-top: 50px;
+	font-family:'Amatic SC', cursive;
+	font-weight: bold;
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px;
+}
+
+.navbar{
+	background: black;
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+
+.nav{
+	list-style-type: none;
+	font-size: 20px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+}
+
+.nav li{
+	display: inline-block;
+	width: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 2.5vw;
+	/*float: right;*/
+}
+
+.nav a{
+	color: white;
+	/*padding:20px;*/
+	text-decoration: none;
+
+}
+
+.nav a:hover{
+	background-color: #555;
+}
+
+.contact{
+	background: white;
+	text-align: center;
+	/*padding-bottom: 70px;*/
+
+}
+
+.contact-header{
+	margin-top: 0px;
+	font-family: sb;
+	font-weight: normal;
+	font-size: 10vw;
+	margin-bottom: 10px;
+}
+
+.mail{
+	font-family:'Amatic SC', cursive;
+	font-size: 3vw;
+}
+
+.contact-image{
+	height: 200px;
+	width:200px;
+}
+
+.contact a{
+	text-decoration: none;
+	color: black;
+}
+
+.contact a:hover{
+	color: #555;
+}
+
+.gh{
+	font-family: bellerose;
+	font-size: 5vw;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.github{
+	display: block;
+	width: 400px;
+	margin-left: 100px;
+	text-align: center;
+}
+
+.prj1{
+	height: 400px;
+	width: 400px;
+	border-radius: 20px;
+	border: solid black 2px;
+}
+
+.prj2{
+	height: 400px;
+	width: 400px;
+	border-radius: 20px;
+	border: solid black 2px;
+}
+.prj3{
+	height: 400px;
+	width: 400px;
+	border-radius: 20px;
+	border: solid black 2px;
+}
+.prj4{
+	height: 400px;
+	width: 400px;
+	border-radius: 20px;
+	border: solid black 2px;
+}
+
