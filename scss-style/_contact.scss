@@ -1,0 +1,44 @@
+.contact{
+	background: white;
+	text-align: center;
+	/*padding-bottom: 70px;*/
+
+}
+
+.contact-header{
+	margin-top: 0px;
+	font-family: sb;
+	font-weight: normal;
+	font-size: 10vw;
+	margin-bottom: 10px;
+}
+
+.mail{
+	font-family:'Amatic SC', cursive;
+	font-size: 3vw;
+}
+
+.contact-image{
+	height: 200px;
+	width:200px;
+}
+
+.contact a{
+	text-decoration: none;
+	color: black;
+}
+
+.contact a:hover{
+	color: #555;
+}
+
+.fa{
+	font-size:10vw;
+	margin-bottom:30px;
+}
+
+.fa:hover{
+	// box-shadow:2px 2px 2px;
+}
+
+

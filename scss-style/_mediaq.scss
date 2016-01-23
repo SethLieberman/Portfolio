@@ -1,0 +1,129 @@
+@media (max-width:700px){
+
+
+	.tuxpic{
+		position:absolute;
+		top:20px;
+		right: 0;
+		z-index: -10;
+		height: 650px;
+		// text-align:center;
+
+	}
+	.tuxpic img{
+		display: block;
+		height: 100%;
+		opacity:.3;	
+	}
+
+	.welcome{
+		position: absolute;
+		top: 75px;
+		left: 50px;	
+	}
+
+	.sl{
+		font-family: bellerose;
+		font-size: 13vw;
+		margin-top:150px;
+
+	}
+
+	.message{
+		position: absolute;
+		right: 0px;
+		width: 100px;
+		text-align: center;
+
+
+	}
+	.hello{
+		text-align: center;
+		color: #555;
+		font-size: 9vw;
+		font-family: 'Amatic SC', cursive;
+		margin-top:60px;	
+		margin-left: 50px;
+
+	}
+
+	.nav li{
+		display: inline-block;
+		width: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 6vw;
+		/*float: right;*/
+		position: relative;
+		top: 50%;
+		transform:translateY(-50%);
+	}
+
+	.gh{
+		font-size: 8vw;
+	}
+	
+	.github{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.prj1, .prj2, .prj3, .prj4{
+		width: 95%;
+	}
+	
+	.navbar{
+		background: black;
+		position: fixed;
+		top:0;
+		z-index: 10;
+	}
+
+	.nav{
+		list-style-type: none;
+		font-size: 20px;
+		margin: 0;
+		overflow: hidden;
+		padding: 0;
+		font-family: 'Amatic SC', cursive;
+		font-weight: bold;
+	}
+
+	.content{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.p1{
+		width: 80%;
+		display: block;
+		font-size: 6vw;
+		height: 225px;
+		margin: 100px auto;
+	}
+
+	.p1 div {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.bar {
+		margin-top: 670px;
+		clear: both;
+		height: 60px;
+		background: black;
+		width: 100%
+	}
+	.bar2{
+		height: 60px;
+		background: black;
+		width: 100%
+	}
+
+	.bar3{
+		height: 60px;
+		background: black;
+		width: 100;
+	}
+}
+

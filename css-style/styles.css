@@ -1,0 +1,265 @@
+.navbar {
+  background: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10; }
+
+.nav {
+  list-style-type: none;
+  font-size: 20px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold; }
+
+.nav li {
+  display: inline-block;
+  width: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 2.5vw;
+  /*float: right;*/
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.nav a {
+  color: white;
+  /*padding:20px;*/
+  text-decoration: none; }
+
+.nav a:hover {
+  background-color: #555; }
+
+.contact {
+  background: white;
+  text-align: center;
+  /*padding-bottom: 70px;*/ }
+
+.contact-header {
+  margin-top: 0px;
+  font-family: sb;
+  font-weight: normal;
+  font-size: 10vw;
+  margin-bottom: 10px; }
+
+.mail {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3vw; }
+
+.contact-image {
+  height: 200px;
+  width: 200px; }
+
+.contact a {
+  text-decoration: none;
+  color: black; }
+
+.contact a:hover {
+  color: #555; }
+
+.fa {
+  font-size: 10vw;
+  margin-bottom: 30px; }
+
+@font-face {
+  font-family: bellerose;
+  src: url(../fonts/Bellerose.ttf); }
+@font-face {
+  font-family: sb;
+  src: url(../fonts/Sketch_Block.ttf); }
+body {
+  margin: 0; }
+
+.tuxpic {
+  position: fixed;
+  top: 20px;
+  right: 0;
+  z-index: -10;
+  /*float: right;*/
+  height: 650px; }
+
+.tuxpic img {
+  display: block;
+  height: 100%; }
+
+.welcome {
+  position: absolute;
+  top: 75px;
+  left: 100px; }
+
+.sl {
+  font-family: bellerose;
+  font-size: 7vw;
+  /*margin-top: 6vw;*/ }
+
+.message {
+  position: absolute;
+  right: 0px;
+  /*margin-top: 0px;*/
+  width: 400px;
+  margin-top: -100px; }
+
+.hello {
+  text-align: right;
+  color: #555;
+  font-size: 5vw;
+  font-family: 'Amatic SC', cursive; }
+
+.bar {
+  margin-top: 670px;
+  clear: both;
+  height: 60px;
+  background: black; }
+
+.bar2 {
+  height: 60px;
+  background: black; }
+
+.bar3 {
+  height: 60px;
+  background: black; }
+
+.content {
+  background: white;
+  text-align: center; }
+
+.p1 {
+  border: solid black 3px;
+  font-size: 3vw;
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  height: 24vw;
+  vertical-align: middle;
+  margin: 30px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px; }
+
+.p1 div {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.prj1 {
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  border: solid black 2px; }
+
+.prj2 {
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  border: solid black 2px; }
+
+.prj3 {
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  border: solid black 2px; }
+
+.prj4 {
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  border: solid black 2px; }
+
+.gh {
+  font-family: bellerose;
+  font-size: 5vw;
+  font-weight: bold;
+  text-decoration: underline; }
+
+.github {
+  display: block;
+  width: 40%;
+  margin-left: 100px;
+  text-align: center; }
+
+@media (max-width: 700px) {
+  .tuxpic {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    z-index: -10;
+    height: 650px; }
+
+  .tuxpic img {
+    display: block;
+    height: 100%;
+    opacity: .3; }
+
+  .welcome {
+    position: absolute;
+    top: 75px;
+    left: 50px; }
+
+  .sl {
+    font-family: bellerose;
+    font-size: 13vw;
+    margin-top: 150px; }
+
+  .message {
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    text-align: center; }
+
+  .hello {
+    text-align: center;
+    color: #555;
+    font-size: 9vw;
+    font-family: 'Amatic SC', cursive;
+    margin-top: 60px;
+    margin-left: 50px; }
+
+  .nav li {
+    display: inline-block;
+    width: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 6vw;
+    /*float: right;*/
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+
+  .gh {
+    font-size: 8vw; }
+
+  .github {
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+
+  .prj1, .prj2, .prj3, .prj4 {
+    width: 95%; }
+
+  .navbar {
+    background: black;
+    position: fixed;
+    top: 0;
+    z-index: 10; }
+
+  .content {
+    width: 100%;
+    margin: 0 auto; }
+
+  .p1 {
+    width: 80%;
+    display: block;
+    font-size: 6vw;
+    height: 225px;
+    margin: 100px auto; }
+
+  .p1 div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); } }
+
+/*# sourceMappingURL=styles.css.map */
