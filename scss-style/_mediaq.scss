@@ -4,13 +4,16 @@
 	.tuxpic{
 		position:absolute;
 		top:20px;
+		left: 0;
 		right: 0;
 		z-index: -10;
 		height: 650px;
 		// text-align:center;
-
+		overflow: hidden;
 	}
 	.tuxpic img{
+		position: absolute;
+		left: -40px;
 		display: block;
 		height: 100%;
 		opacity:.3;	
@@ -32,17 +35,17 @@
 	.message{
 		position: absolute;
 		right: 0px;
-		width: 100px;
+		// width: 100px;
 		text-align: center;
 
 
 	}
 	.hello{
-		text-align: center;
+		text-align: right;
 		color: #555;
 		font-size: 9vw;
 		font-family: 'Amatic SC', cursive;
-		margin-top:60px;	
+		margin-top: 0px;	
 		margin-left: 50px;
 
 	}
