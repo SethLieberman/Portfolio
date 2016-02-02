@@ -151,6 +151,12 @@ body {
   border-radius: 20px;
   border: solid black 2px; }
 
+.prj-explain {
+  font-size: 3vw;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  margin-bottom: 0; }
+
 .gh {
   font-family: bellerose;
   font-size: 5vw;
