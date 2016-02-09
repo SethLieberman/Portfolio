@@ -126,13 +126,37 @@ body {
   background: white;
   text-align: center; }
 
+.experience {
+  font-family: bellerose;
+  font-size: 5vw;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 0;
+  margin-top: 0; }
+
 .p1 {
-  border: solid black 3px;
   font-size: 3vw;
   text-align: center;
   display: inline-block;
-  width: 30%;
-  height: 24vw;
+  width: 65%;
+  height: 60vw;
+  vertical-align: middle;
+  margin-top: 0;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold; }
+
+.p1 div {
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%); }
+
+.p2 {
+  border: solid black 3px;
+  font-size: 3.5vw;
+  text-align: center;
+  display: inline-block;
+  width: 55%;
+  height: 28vw;
   vertical-align: middle;
   margin: 30px;
   font-family: 'Amatic SC', cursive;
@@ -140,10 +164,13 @@ body {
   border-radius: 25px;
   box-shadow: 5px 5px 5px; }
 
-.p1 div {
+.p2 div {
   position: relative;
-  top: 50%;
+  top: 30%;
   transform: translateY(-50%); }
+
+.p2:hover {
+  box-shadow: 10px 10px 10px 10px; }
 
 .prj1, .prj2, .prj3, .prj4 {
   height: 400px;
