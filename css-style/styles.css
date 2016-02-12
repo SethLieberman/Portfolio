@@ -35,8 +35,7 @@
 
 .contact {
   background: white;
-  text-align: center;
-  /*padding-bottom: 70px;*/ }
+  text-align: center; }
 
 .contact-header {
   margin-top: 0px;
@@ -120,7 +119,8 @@ body {
 
 .bar3 {
   height: 60px;
-  background: black; }
+  background: black;
+  margin-bottom: 100px; }
 
 .content {
   background: white;
@@ -131,7 +131,7 @@ body {
   font-size: 5vw;
   font-weight: bold;
   text-decoration: underline;
-  margin-bottom: 0;
+  margin-bottom: 25px;
   margin-top: 0; }
 
 .p1 {
@@ -194,6 +194,7 @@ body {
   display: block;
   width: 40%;
   margin-left: 100px;
+  margin-bottom: 50px;
   text-align: center; }
 
 @media (min-width: 1620px) {
@@ -314,6 +315,9 @@ body {
     width: 100%;
     margin: 0 auto; }
 
+  .experience {
+    font-size: 8vw; }
+
   .p1 {
     width: 80%;
     display: block;
@@ -334,6 +338,9 @@ body {
     position: relative;
     top: 50%;
     transform: translateY(-50%); }
+
+  .mail {
+    font-size: 7vw; }
 
   .bar {
     margin-top: 670px;
