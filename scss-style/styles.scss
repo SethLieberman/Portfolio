@@ -94,14 +94,15 @@ body{
 
 
 .p1{
-	font-size: 3vw;  
+	font-size: 2vw;  
 	text-align: center;
 	display: inline-block;
 	width: 65%;
-	height: 60vw;
+	height: 50vw;
 	vertical-align: middle;
 	margin-top:0;
-	font-family:'Amatic SC', cursive;
+	font-family: 'Halant', serif;
+	// font-family:'Amatic SC', cursive;
 	font-weight: bold;
 	// border-radius: 25px;
 	// box-shadow: 5px 5px 5px;
@@ -115,14 +116,15 @@ body{
 
 .p2{
 	border:solid black 3px;
-	font-size: 3.5vw;  
+	font-size: 3.0vw;  
 	text-align: center;
 	display: inline-block;
 	width: 55%;
 	height: 28vw;
 	vertical-align: middle;
 	margin: 30px;
-	font-family:'Amatic SC', cursive;
+	font-family: 'Halant', serif;
+	// font-family:'Amatic SC', cursive;
 	font-weight: bold;
 	border-radius: 25px;
 	box-shadow: 5px 5px 5px;
@@ -147,7 +149,7 @@ body{
 }
 .prj-explain{
 	font-size: 3vw;
-	font-family:'Amatic SC', cursive;
+	font-family: 'Halant', serif;
 	font-weight:bold;
 	margin-bottom:0;
 }

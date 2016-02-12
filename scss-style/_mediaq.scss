@@ -1,4 +1,4 @@
-@media(min-width:1020px){
+@media(min-width:1620px){
 
 	.sl{
 		font-family: bellerose;
@@ -16,7 +16,6 @@
 	.hello{
 		text-align: right;
 		color: #555;
-		font-family: 'Amatic SC', cursive;
 		margin-top: -10px;	
 		margin-left: 50px;
 
@@ -88,7 +87,6 @@
 		text-align: right;
 		color: #555;
 		font-size: 9vw;
-		font-family: 'Amatic SC', cursive;
 		margin-top: 0px;	
 		margin-left: 50px;
 
@@ -115,8 +113,15 @@
 		margin: 0;
 		padding: 0;
 	}
+
 	.prj1, .prj2, .prj3, .prj4{
 		width: 95%;
+	}
+
+	.prj-explain{
+		font-size: 6vw;
+		font-weight:bold;
+		margin-bottom:0;
 	}
 	
 	.navbar{
@@ -132,7 +137,6 @@
 		margin: 0;
 		overflow: hidden;
 		padding: 0;
-		font-family: 'Amatic SC', cursive;
 		font-weight: bold;
 	}
 
@@ -144,8 +148,19 @@
 		width: 80%;
 		display: block;
 		font-size: 6vw;
-		height: 150vw;
+		height: 275vw;
 		margin: 100px auto;
+	}
+
+	.p2{
+		height: 50vw;
+		font-size: 4.5vw;  
+	}
+
+	.p2 div {
+		position: relative;
+	  	top: 40%;
+	 	transform: translateY(-50%);
 	}
 
 	.p1 div {
