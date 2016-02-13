@@ -5,7 +5,9 @@
 	position: fixed;
 	top:0;
 	width: 100%;
+	height:72px;
 	z-index: 10;
+
 }
 
 .nav{
@@ -23,11 +25,12 @@
 	width: 30px;
 	padding-left: 50px;
 	padding-right: 50px;
-	font-size: 2.5vw;
+	font-size: 2.7vw;
 	/*float: right;*/
 	position: relative;
 	top: 50%;
-	transform:translateY(-50%);
+	transform:translateY(-30%);
+
 }
 
 .nav a{
@@ -39,8 +42,14 @@
 
 .nav a:hover{
 	background-color: #555;
+	border-radius:10px;
+	box-shadow: 1px 1px 1px 5px;
+	padding:5px;
 }
 
+.face{
+	padding-top:5px;
+}
 .face:hover {
    animation:spin 4s linear infinite;
 }
