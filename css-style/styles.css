@@ -3,6 +3,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  height: 72px;
   z-index: 10; }
 
 .nav {
@@ -23,7 +24,7 @@
   /*float: right;*/
   position: relative;
   top: 50%;
-  transform: translateY(-50%); }
+  transform: translateY(-30%); }
 
 .nav a {
   color: white;
@@ -31,7 +32,10 @@
   text-decoration: none; }
 
 .nav a:hover {
-  background-color: #555; }
+  background-color: #555;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 5px;
+  padding: 5px; }
 
 .face:hover {
   animation: spin 4s linear infinite; }
@@ -116,15 +120,15 @@ body {
 .bar {
   margin-top: 670px;
   clear: both;
-  height: 60px;
+  height: 70px;
   background: black; }
 
 .bar2 {
-  height: 60px;
+  height: 70px;
   background: black; }
 
 .bar3 {
-  height: 60px;
+  height: 70px;
   background: black;
   margin-bottom: 100px; }
 
@@ -351,17 +355,17 @@ body {
   .bar {
     margin-top: 670px;
     clear: both;
-    height: 60px;
+    height: 70px;
     background: black;
     width: 100%; }
 
   .bar2 {
-    height: 60px;
+    height: 70px;
     background: black;
     width: 100%; }
 
   .bar3 {
-    height: 60px;
+    height: 70px;
     background: black;
     width: 100%; } }
 
