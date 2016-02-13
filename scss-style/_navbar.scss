@@ -1,4 +1,5 @@
 
+
 .navbar{
 	background: black;
 	position: fixed;
@@ -39,3 +40,12 @@
 .nav a:hover{
 	background-color: #555;
 }
+
+.face:hover {
+   animation:spin 4s linear infinite;
+}
+@keyframes spin { 100% {transform:rotate(360deg); } }
+
+
+
+
