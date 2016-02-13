@@ -20,7 +20,7 @@
   width: 30px;
   padding-left: 50px;
   padding-right: 50px;
-  font-size: 2.5vw;
+  font-size: 2.7vw;
   /*float: right;*/
   position: relative;
   top: 50%;
@@ -36,6 +36,9 @@
   border-radius: 10px;
   box-shadow: 1px 1px 1px 5px;
   padding: 5px; }
+
+.face {
+  padding-top: 5px; }
 
 .face:hover {
   animation: spin 4s linear infinite; }
@@ -198,7 +201,8 @@ body {
   font-family: bellerose;
   font-size: 5vw;
   font-weight: bold;
-  text-decoration: underline; }
+  text-decoration: underline;
+  color: black; }
 
 .github {
   display: block;
@@ -206,6 +210,10 @@ body {
   margin-left: 100px;
   margin-bottom: 50px;
   text-align: center; }
+
+.gh a {
+  text-decoration: none;
+  color: black; }
 
 @media (min-width: 1620px) {
   .sl {

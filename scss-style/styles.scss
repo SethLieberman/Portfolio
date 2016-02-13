@@ -23,14 +23,11 @@ body{
 	z-index: -10;
 	/*float: right;*/
 	height: 650px;
-	
-
 }
 
 .tuxpic img{
 	display: block;
 	height: 100%;
-
 }
 
 .welcome{
@@ -93,7 +90,6 @@ body{
 	margin-top:0;
 }
 
-
 .p1{
 	font-size: 2vw;  
 	text-align: center;
@@ -141,7 +137,6 @@ body{
 	box-shadow: 10px 10px 10px 10px;
 }
 
-
 .prj1, .prj2, .prj3, .prj4 {
 	height: 400px;
 	width: 400px;
@@ -160,6 +155,7 @@ body{
 	font-size: 5vw;
 	font-weight: bold;
 	text-decoration: underline;
+	color:black;
 }
 
 .github{
@@ -168,6 +164,11 @@ body{
 	margin-left: 100px;
 	margin-bottom:50px;
 	text-align: center;
+}
+
+.gh a{
+	text-decoration: none;
+	color:black;
 }
 
 @import 'mediaq';
