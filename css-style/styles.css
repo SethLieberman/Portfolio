@@ -215,6 +215,12 @@ body {
   text-decoration: none;
   color: black; }
 
+.prj-explain a {
+  color: black; }
+
+.prj-explain a:visted {
+  color: black; }
+
 @media (min-width: 1620px) {
   .sl {
     font-family: bellerose;
