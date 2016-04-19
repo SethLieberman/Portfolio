@@ -45,16 +45,17 @@
 	border-radius:10px;
 	box-shadow: 1px 1px 1px 5px;
 	padding:5px;
+	animation: dropdown 4s linear infinite;
 }
 
 .face{
 	padding-top:5px;
 }
+
 .face:hover {
    animation:spin 4s linear infinite;
 }
+
 @keyframes spin { 100% {transform:rotate(360deg); } }
-
-
 
 

@@ -58,6 +58,10 @@ body{
 	margin-top: 0px;
 }
 
+// .hello:hover{
+// 	animation: dropdown 5s ease-in-out infinite;
+// }
+
 .bar {
 	margin-top: 670px;
 	clear: both;
@@ -178,4 +182,11 @@ body{
 .prj-explain a:visted{
 	color:black;
 }
+
+@keyframes dropdown{
+	0% {transform: translateY(0px) rotate(0turn);}
+	100% {transform: translateY(1800px) rotate(2turn);}
+}
+
+
 @import 'mediaq';

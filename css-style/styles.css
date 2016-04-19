@@ -35,7 +35,8 @@
   background-color: #555;
   border-radius: 10px;
   box-shadow: 1px 1px 1px 5px;
-  padding: 5px; }
+  padding: 5px;
+  animation: dropdown 4s linear infinite; }
 
 .face {
   padding-top: 5px; }
@@ -221,6 +222,11 @@ body {
 .prj-explain a:visted {
   color: black; }
 
+@keyframes dropdown {
+  0% {
+    transform: translateY(0px) rotate(0turn); }
+  100% {
+    transform: translateY(1800px) rotate(2turn); } }
 @media (min-width: 1620px) {
   .sl {
     font-family: bellerose;
