@@ -1,0 +1,22 @@
+{
+  "name": "bbg",
+  "description": "",
+  "main": "gruntfile.js",
+  "authors": [
+    "Seth"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/SethLieberman/bbg",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "=3.3.4",
+    "animate.css": "^3.5.1"
+  }
+}
