@@ -92,7 +92,8 @@ body {
   right: 0;
   z-index: -10;
   /*float: right;*/
-  height: 650px; }
+  height: 650px;
+  border-bottom: solid black 1px; }
 
 .tuxpic img {
   display: block;
@@ -240,10 +241,12 @@ body {
     text-align: center; }
 
   .hello {
-    text-align: right;
+    text-align: left;
     color: #555;
     margin-top: -10px;
-    margin-left: 50px; }
+    margin-left: 50px;
+    font-size: 5vw;
+    width: 450px; }
 
   .nav li {
     display: inline-block;
