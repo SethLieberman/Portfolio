@@ -92,7 +92,8 @@ body {
   right: 0;
   z-index: -10;
   /*float: right;*/
-  height: 650px; }
+  height: 650px;
+  border-bottom: solid black 1px; }
 
 .tuxpic img {
   display: block;
@@ -227,14 +228,14 @@ body {
     transform: translateY(0px) rotate(0turn); }
   100% {
     transform: translateY(1800px) rotate(2turn); } }
-@media (min-width: 1620px) {
+@media (min-width: 1600px) {
   .sl {
     font-family: bellerose;
     font-size: 6vw;
-    margin-top: -90px; }
+    margin-top: -50px; }
 
   .message {
-    position: absolute;
+    position: relative;
     right: 0px;
     margin-top: -100;
     text-align: center; }
@@ -242,8 +243,9 @@ body {
   .hello {
     text-align: right;
     color: #555;
-    margin-top: -10px;
-    margin-left: 50px; }
+    font-size: 5vw;
+    width: 550px;
+    margin: -10px 0 40px 100px; }
 
   .nav li {
     display: inline-block;
