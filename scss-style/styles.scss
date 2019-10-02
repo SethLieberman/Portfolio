@@ -1,7 +1,3 @@
-@import 'navbar';
-@import 'contact';
-
-
 @font-face {
 	font-family: bellerose;
 	src: url(../fonts/Bellerose.ttf);
@@ -13,181 +9,58 @@
 
 body{
 	margin: 0;
-
 }
 
-.tuxpic{
-	position:fixed;
-	top:20px;
-	right: 0;
-	z-index: -10;
-	/*float: right;*/
-	height: 650px;
-	border-bottom:solid black 1px;
-}
-
-.tuxpic img{
-	display: block;
-	height: 100%;
-}
-
-.welcome{
-	position: absolute;
-	top: 75px;
-	left: 100px;
-}
-
-.sl{
-	font-family: bellerose;
-	font-size: 7vw;
+.page-header {
+	font-family: sb;
+	font-weight: normal;
+	font-size: 10vw;
 	margin-bottom: 0;
-	/*margin-top: 6vw;*/
+	margin-top: 1.5%;
 }
 
-.message{
-	position: absolute;
-	right: 0px;
-	// margin-top: 0px;
-	width: 400px;
-	
-}
-.hello{
-	text-align: right;
-	color: #555;
-	font-size: 5vw;
-	font-family: 'Amatic SC', cursive;
-	margin-top: 0px;
+.about {
+  font-family: bellerose;
+	font-size: 2vw;
+	line-height: 2.25vw;
+	margin: auto;
+	width: 60%;
 }
 
-// .hello:hover{
-// 	animation: dropdown 5s ease-in-out infinite;
-// }
-
-.bar {
-	margin-top: 670px;
-	clear: both;
-	height: 70px;
-	background: black;
-}
-.bar2{
-	height: 70px;
-	background: black;
-}
-
-.bar3{
-	height: 70px;
-	background: black;
-	margin-bottom:100px;
-}
-
-.content {
+.contact {
 	background: white;
 	text-align: center;
-
 }
 
-.experience{
-	font-family: bellerose;
-	font-size: 5vw;
-	font-weight: bold;
-	text-decoration: underline;
-	margin-bottom:55px;
-	margin-top:0;
+.contact-header {
+	margin-top: 2.75%;
+	font-family: sb;
+	font-weight: normal;
+	font-size: 6vw;
+	margin-bottom: 0;
 }
 
-.p1{
-	font-size: 2vw;  
-	text-align: center;
-	display: inline-block;
-	width: 65%;
-	height: 50vw;
-	vertical-align: middle;
-	margin-top:0;
-	font-family: 'Halant', serif;
-	// font-family:'Amatic SC', cursive;
-	font-weight: bold;
-	// border-radius: 25px;
-	// box-shadow: 5px 5px 5px;
-}
-
-.p1 div {
-	position: relative;
-  	top: 40%;
- 	transform: translateY(-50%);
-}
-
-.p2{
-	border:solid black 3px;
-	font-size: 3.0vw;  
-	text-align: center;
-	display: inline-block;
-	width: 55%;
-	height: 28vw;
-	vertical-align: middle;
-	margin: 30px;
-	font-family: 'Halant', serif;
-	// font-family:'Amatic SC', cursive;
-	font-weight: bold;
-	border-radius: 25px;
-	box-shadow: 5px 5px 5px;
-}
-
-.p2 div {
-	position: relative;
-  	top: 30%;
- 	transform: translateY(-50%);
-}
-
-.p2:hover{
-	box-shadow: 10px 10px 10px 10px;
-}
-
-.prj1, .prj2, .prj3, .prj4 {
-	height: 400px;
-	width: 400px;
-	border-radius: 20px;
-	border: solid black 2px;
-}
-.prj-explain{
+.mail {
+	font-family: 'Amatic SC', cursive;
 	font-size: 3vw;
-	font-family: 'Halant', serif;
-	font-weight:bold;
-	margin-bottom:0;
+	margin: auto;
 }
 
-.gh{
-	font-family: bellerose;
-	font-size: 5vw;
-	font-weight: bold;
-	text-decoration: underline;
-	color:black;
+.contact-image {
+	height: 10%;
+	width: 10%;
 }
 
-.github{
-	display: block;
-	width: 40%;
-	margin-left: 100px;
-	margin-bottom:50px;
-	text-align: center;
-}
-
-.gh a{
+.contact a {
 	text-decoration: none;
-	color:black;
+	color: black;
 }
 
-.prj-explain a{
-	color:black;
+.contact a:hover {
+	color: #555;
 }
 
-.prj-explain a:visted{
-	color:black;
+.media-link {
+	font-size: 6vw;
+	margin-bottom: 30px;
 }
-
-@keyframes dropdown{
-	0% {transform: translateY(0px) rotate(0turn);}
-	100% {transform: translateY(1800px) rotate(2turn);}
-}
-
-
-@import 'mediaq';

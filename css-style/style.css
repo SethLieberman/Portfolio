@@ -1,0 +1,67 @@
+@font-face {
+  font-family: bellerose;
+  src: url(../fonts/Bellerose.ttf);
+}
+@font-face {
+  font-family: sb;
+  src: url(../fonts/Sketch_Block.ttf);
+}
+body {
+  margin: 0;
+}
+
+.page-header {
+  font-family: sb;
+  font-weight: normal;
+  font-size: 10vw;
+  margin-bottom: 0;
+  margin-top: 1.5%;
+}
+
+.about {
+  font-family: bellerose;
+  font-size: 2vw;
+  line-height: 2.25vw;
+  margin: auto;
+  width: 60%;
+}
+
+.contact {
+  background: white;
+  text-align: center;
+}
+
+.contact-header {
+  margin-top: 2.75%;
+  font-family: sb;
+  font-weight: normal;
+  font-size: 6vw;
+  margin-bottom: 0;
+}
+
+.mail {
+  font-family: "Amatic SC", cursive;
+  font-size: 3vw;
+  margin: auto;
+}
+
+.contact-image {
+  height: 10%;
+  width: 10%;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact a:hover {
+  color: #555;
+}
+
+.media-link {
+  font-size: 6vw;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
